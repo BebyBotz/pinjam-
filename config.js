@@ -11,7 +11,7 @@ global.APIs = {
 // Free apikey
 global.APIKeys = {
 	'https://api-alphabot.herokuapp.com': 'Alphabot',
-	'https://zeks.me': 'Alphabott',
+	'https://zeks.me': 'Akirachan',
 }
 
 global.owner = ['62887435047326','918156874290']
