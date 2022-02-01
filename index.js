@@ -4139,7 +4139,7 @@ if (!isGroup) return reply(lang.onlygc())
 					}, 2000)
 					setTimeout( () => {
 					alpha.updatePresence(from, Presence.composing) 
-					reply('```Byeee 👋```')
+					reply('```Byeee Sayang 👋```')
 					}, 0)
 					break     
 		    case 'leave2':
