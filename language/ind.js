@@ -160,3 +160,11 @@ exports.ownerOff = () =>{
 exports.ownerOn = () =>{
 	return`Owner saya kembali on`
 	}
+exports.welcome = () =>{
+	return`Jangan Lupa Intro Ya~
+⌯ָ   ֙Nama :
+⌯ָ   ֙Umur :
+⌯ָ   ֙Gender :
+⌯ָ   ֙Askot :
+╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
+      }
