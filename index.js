@@ -141,7 +141,7 @@ const event = JSON.parse(fs.readFileSync('./src/event.json'))
 
 //var creatorList = ['Creator WhatsApp Bot', 'Whatsapp Bot Indonesia', 'Creator Bot' , ' Bot WhatsApp']
 var creator = setting.ownername
-const  { ind, eng, es, ml, ru, pt } = require(`./language`)
+const  { ind } = require(`./language`)
 lang = ind //language
 const Exif = require('./lib/exif')
 const exif = new Exif()
