@@ -55,7 +55,7 @@ exports.welcome = () =>{
 ⌯ָ   ֙Gender :
 ⌯ָ   ֙Askot :
 ╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
-count leave = () =>{
+exports.leave = () =>{
 	return`Yah kok out 😣 Mental aman kan kak >.<
 Goodbye`
 }
