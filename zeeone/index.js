@@ -1,15 +1,60 @@
 /*
 Support channel ZEEONE OFC
 */
-count welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
-	
-📛 𝖭𝖺𝗆𝖺 :
-🔞 𝖴𝗆𝗎𝗋 :
-🧑 𝖦𝖾𝗇𝖽𝖾𝗋 :
-🏙️ 𝖠𝗌𝗄𝗈𝗍 :
-╰ 𝖯𝖺𝗍𝗎𝗁𝗂 𝗋𝗎𝗅𝖾𝗌 𝗀𝗋𝗎𝗉 𝗒𝖺 𝗄𝖺k ~`
+exports.limitcount = (prem, limitCounts) => {
+	return`
+*「 LIMIT COUNT 」*
+Sisa limit : ${prem ? '1000' : `${limitCounts}`}
+`
 }
+exports.limitend = (pushname) => {
+	return`Maaf ${pushname} limit hari ini telah habis\nlimit di reset setiap jam 24:00`
+}
+exports.noregis = (pushname) =>{
+	return` 🙅‍♀️ Halo ${pushname} lu belum daftar. Ketik .daftar dulu`
+	}
+exports.regis = () =>{
+	return` Lu udah daftar 😒`
+	}
+exports.daftar = (sender, pushname, time, serialUser, totalUser) =>{
+	return` *PENDAFTARAN BERHASIL*
+• Nama : ${pushname}
+• Nomor : ${sender.split("@")[0]}
+• Waktu : ${time}
+• Serial : ${serialUser}
+• Total User : ${totalUser.length}
+Thanks yak udah daftar, sekarang ketik .menu untuk melihat 
+fitur bot.
+`
+	}
+exports.owner = (botname) =>{
+	return` 🙅‍♀️ Command khusus owner ${botname}`
+	}
+exports.admin = (groupName) =>{
+	return`🙅‍♀️ Command khusus admin ${groupName}`
+	}
+exports.adminB = () =>{
+	return`⚠️ Bot bukan admin grup`
+	}
+exports.err = () =>{
+	return`⚠️ Fitur ini sedang eror !`
+	}
+exports.group = () =>{
+	return`🙅‍♀️ Command khusus di dalam group`
+	}
+exports.wait = () =>{
+	return`⏳ Sedang di proses ~`
+	}
+exports.ok = () =>{
+	return` ✅ Oke done ~`
+	}
+exports.welcome = () =>{
+	return`Jangan Lupa Intro Ya~
+⌯ָ   ֙Nama :
+⌯ָ   ֙Umur :
+⌯ָ   ֙Gender :
+⌯ָ   ֙Askot :
+╰─ ᝬ _Patuhi Rules Group Ya_  >_<`
 count leave = () =>{
 	return`Yah kok out 😣 Mental aman kan kak >.<
 Goodbye`
