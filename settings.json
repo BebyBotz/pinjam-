@@ -1,10 +1,10 @@
 {
     "self_mode": false,
-	"autobio": true,
+	"autobio": false,
 	"msg_connected": false,
 	"user_register": false,
 	"anti_delete" : false,
-	"anticall": false,
+	"anticall": true,
 	"auto_welcome_msg": true,
 	"auto_leave_msg": true,
 	"prefix": ".",
